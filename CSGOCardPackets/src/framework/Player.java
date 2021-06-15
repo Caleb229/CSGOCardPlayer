@@ -10,12 +10,12 @@ public class Player extends Member{
     public Abilities abilities;
 
 
-    public Player(String name, Date dateOfBirth, String nationality, Team team, Role role, String rank,
-                  Abilities abilites) {
-        super(name, dateOfBirth, nationality);
+    public Player(String firstName, String lastName, Date dateOfBirth, String nationality, Team team, Role role, String rank,
+                  Abilities abilities) {
+        super(firstName, lastName, dateOfBirth, nationality);
         this.team = team;
         this.role = role;
         this.rank = rank;
-        this.abilities = abilites;
+        this.abilities = abilities;
     }
 }
